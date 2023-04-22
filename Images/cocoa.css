@@ -1,0 +1,48 @@
+body {
+    background-image: url('pexels-bamidele-sodiq-5208267.jpg');
+    background-repeat: no-repeat;
+    background-position: 100%;
+}
+
+.container {
+    background-color: blanchedalmond;
+    padding: 20px 60px 20px 60px;
+    height: 90vh;
+    width: 60vw;
+    margin: 0 auto;
+}
+
+.head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: beige;
+    border-bottom: 2px solid red;
+}
+
+.head h1 {
+    font-size: 30px;
+}
+
+.head p {
+    font-size: 15px;
+    font-style: italic;
+    color: black;
+}
+
+/* section.coffee {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    border-bottom: 2px solid red;
+} */
+
+
+@media screen and (max-width: 400px) {
+    body {
+        width: fit-content;
+    }
+}
