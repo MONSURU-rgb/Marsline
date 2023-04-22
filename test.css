@@ -483,7 +483,7 @@ footer section img {
     /* padding-left: 10px; */
 }
 
-@media  screen and (min-width: 300px) and (max-width: 2400px) {
+@media  screen and (min-width: 200px) and (max-width: 2400px) {
     body {
         width: fit-content;
     }
