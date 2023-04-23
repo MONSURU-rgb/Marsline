@@ -483,10 +483,33 @@ footer section img {
     /* padding-left: 10px; */
 }
 
-@media  screen and (min-width: 200px) and (max-width: 2400px) {
+@media  screen and (min-width: 200px) and (max-width: 1440px) {
     body {
-        width: fit-content;
-    }
+        min-width: fit-content;
+        display: flex;
+        flex-direction: column;
+        /* font-size: clamp(12px, 1.7rem, 40px);
+        margin: 0 auto;
+        padding: 0;
+        box-sizing: border-box;
+        overflow-x: hidden; */
+    };
+
+    /* .rectangle-image {
+        grid-template-columns: none;
+    } */
+
+    
 }
+
+/* @media  screen and (min-width: 200px) and (max-width: 500px) {
+    .growth {
+        font-size: clamp(20px,7rem,100px);
+    }
+
+    .rectangle-image {
+        grid-template-columns: none;
+    }
+} */
 
 
